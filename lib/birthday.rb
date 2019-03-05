@@ -21,14 +21,14 @@ birthday_kids = {
     "Amanda" => 27
 }
  
-def col
+def col(birthday_kids)
 birthday_kids.collect do |kids_name, age|
     age
 end
 
 end
 
-def each1
+def each1(birthday_kids)
   birthday_kids.each do |kids_name, age|
     age
 end
