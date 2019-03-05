@@ -32,5 +32,6 @@ def each1
   birthday_kids.each do |kids_name, age|
     age
 end
+end
 
 binding.pry
